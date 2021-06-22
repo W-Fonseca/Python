@@ -1,0 +1,20 @@
+a = ('abacaxi', 'strogonoff', 'lingua portuguesa','amigo','descansar','comida','jogar','brincar','desenhar')
+for c in range(0,len(a)):
+    f = ''
+    g = str(a[c])
+    z = g.find('a')
+    x = g.find('e')
+    v = g.find('i')
+    u = g.find('o')
+    w = g.find('u')
+    if z >= 0:
+        f += 'a'+' '
+    if x >= 0:
+        f+= 'e'+' '
+    if v >= 0:
+        f += 'i'+' '
+    if u >= 0:
+        f += 'o'+' '
+    if w >= 0:
+        f += 'u'+' '
+    print(f'Na palavra {a[c]}, temos a vogais = {f}')

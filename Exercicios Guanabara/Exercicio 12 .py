@@ -1,0 +1,5 @@
+print('preço')
+preco = float(input('preco do produto: '))
+conta1 = float(preco * 0.05)
+conta2 = float(preco - conta1)
+print('preco com 5% de desconto {}'.format(conta2))
