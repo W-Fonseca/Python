@@ -15,6 +15,7 @@ def validar(texto):
         print(lista_Componentes)
         texto = texto.replace(texto[local1:local2+1],"")
 
+  #https://regex101.com/r/F7t55q/6
 
 
 validar("[RFQ]_[COUPA]_[28.09.2021]_[EFA]_1")
