@@ -5,10 +5,14 @@
 #5° baixei o chromium do site e movi para /bin/
 #6° escrevi no code:
 
+#se for linux usar o geckodriver e firefox, confome o descritivo: 
+# https://www.dev2qa.com/how-to-resolve-webdriverexception-geckodriver-executable-needs-to-be-in-path/
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
+#webdriver = webdriver.Firefox(executable_path= '/home/codex/Downloads/geckodriver')
 webdriver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
 webdriver.get("https://www.google.com/")
 webdriver.find_element(By.NAME,"q").send_keys("ola")
