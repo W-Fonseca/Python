@@ -15,6 +15,7 @@ import time
 #webdriver = webdriver.Firefox(executable_path= '/home/codex/Downloads/geckodriver')
 webdriver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
 webdriver.get("https://www.google.com/")
+#se for para clicar em algo que contenha um valor especifico, pode colocar o exemplo: no xpath //div[text()='Em aberto']
 webdriver.find_element(By.NAME,"q").send_keys("ola")
 time.sleep(30)
 
