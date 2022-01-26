@@ -1,4 +1,4 @@
-#1° baixei um chromium-driver do Synaptic
+#1° baixei um chromium-driver do Synaptic 
 #2° installei o python 3.7
 #3° instalei o pip3
 #4° instalei o selenium do pip
