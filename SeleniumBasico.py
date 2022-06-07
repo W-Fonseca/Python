@@ -16,6 +16,7 @@ import time
 webdriver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
 webdriver.get("https://www.google.com/")
 #se for para clicar em algo que contenha um valor especifico, pode colocar o exemplo: no xpath //div[text()='Em aberto']
+############################################################################# https://devhints.io/xpath
 webdriver.find_element(By.NAME,"q").send_keys("ola")
 time.sleep(30)
 
