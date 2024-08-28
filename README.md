@@ -9,4 +9,4 @@ pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trus
 
 https://stackoverflow.com/questions/50951955/pytesseract-tesseractnotfound-error-tesseract-is-not-installed-or-its-not-i
 
-
+Automação TOTVS = https://totvs.github.io/tir-docs/TIR/first
